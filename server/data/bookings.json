@@ -1,0 +1,96 @@
+[
+  {
+    "movieId": "tt0076759",
+    "movieTitle": "Star Wars: Episode IV - A New Hope",
+    "movieYear": "1977",
+    "seats": [
+      {
+        "row": 2,
+        "col": 4
+      },
+      {
+        "row": 2,
+        "col": 5
+      }
+    ],
+    "dateTime": "6/5/2024, 10:21:47 PM",
+    "cinemaNumber": 1,
+    "transactionId": "000001"
+  },
+  {
+    "movieId": "tt0076759",
+    "movieTitle": "Star Wars: Episode IV - A New Hope",
+    "movieYear": "1977",
+    "seats": [
+      {
+        "row": 2,
+        "col": 6
+      }
+    ],
+    "dateTime": "6/5/2024, 10:22:00 PM",
+    "cinemaNumber": 1,
+    "transactionId": "000002"
+  },
+  {
+    "movieId": "tt3521164",
+    "movieTitle": "Moana",
+    "movieYear": "2016",
+    "seats": [
+      {
+        "row": 2,
+        "col": 5
+      },
+      {
+        "row": 2,
+        "col": 6
+      }
+    ],
+    "dateTime": "6/5/2024, 10:23:14 PM",
+    "cinemaNumber": 2,
+    "transactionId": "000003"
+  },
+  {
+    "movieId": "tt0848228",
+    "movieTitle": "The Avengers",
+    "movieYear": "2012",
+    "seats": [
+      {
+        "row": 3,
+        "col": 6
+      },
+      {
+        "row": 3,
+        "col": 7
+      }
+    ],
+    "dateTime": "6/5/2024, 10:24:52 PM",
+    "cinemaNumber": 3,
+    "transactionId": "000004"
+  },
+  {
+    "movieId": "tt0076759",
+    "movieTitle": "Star Wars: Episode IV - A New Hope",
+    "movieYear": "1977",
+    "seats": [
+      {
+        "row": 2,
+        "col": 4
+      },
+      {
+        "row": 3,
+        "col": 4
+      },
+      {
+        "row": 3,
+        "col": 5
+      },
+      {
+        "row": 3,
+        "col": 6
+      }
+    ],
+    "dateTime": "6/5/2024, 10:26:35 PM",
+    "cinemaNumber": 1,
+    "transactionId": "000005"
+  }
+]

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popcorn Seat</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+<body>
+    <section class="firstPage" id="homepage">
+        <img class="redBg" src="images/firstBg.png" alt="">
+        <div class="pageOne">
+            <h1 id="title">Popcorn Seats</h1>
+            <div class="logo">
+                <h2>Spot your Seat</h2>
+                <h1>Make a reservation</h1>
+                <p>Popcorn, Please! Book Your Movie with Ease!</p>
+                <button class="bookNow" onclick="go_to_search_section()" role="button">BOOK NOW</button> 
+            </div>
+        </div>
+    </section>
+
+    <section id="search_section" style="display: none;">
+        <video autoplay muted loop id="myVideo">
+            <source src="images/slide.mp4" type="video/mp4">
+        </video>
+        <div class="searchBar" id="searchBar">
+            <img src="images/logo.png" alt="">
+            <input type="text" id="movieInput" placeholder="Enter movie title">
+            <button class="btn-search" onclick="fetchMovieData()" role="button">SEARCH</button>
+        </div>
+    </section>
+
+
+    <section>
+        <div id="movies-container"></div>
+    </section>
+
+
+    
+    <div id="movieCon">
+        <div id="movieResults"></div>
+        <div class="wrapper" id="wrapper" style="display: none;">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <section id="mDetails_section" style="display: none;">
+    </section>
+    
+    <section id="booked_movies_section">
+        <div id="bookedMovies" style="display:none;"></div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
